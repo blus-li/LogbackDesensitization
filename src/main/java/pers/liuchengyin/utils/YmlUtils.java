@@ -34,8 +34,7 @@ public class YmlUtils {
     /** Yml脱敏配置文件内容 - Map格式 */
     public static Map<String, Object> patternMap;
     public static final DumperOptions OPTIONS = new DumperOptions();
-
-
+    
     static {
         OPTIONS.setDefaultFlowStyle(DumperOptions.FlowStyle.BLOCK);
         patternMap = getYmlByName(PROPERTY_NAME);
