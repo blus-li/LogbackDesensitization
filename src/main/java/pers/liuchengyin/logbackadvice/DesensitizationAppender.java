@@ -50,7 +50,6 @@ public class DesensitizationAppender {
                     e.printStackTrace();
                 }
             }
-
         }
     }
 }
